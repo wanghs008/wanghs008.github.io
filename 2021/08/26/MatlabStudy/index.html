@@ -153,14 +153,14 @@
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
       envId: 'wanghs008-4gtxsutsa3d83442',
-      region: ''
+      region: 'ap-shanghai'
     }, null))
   }
 
   const getCount = () => {
     twikoo.getCommentsCount({
       envId: 'wanghs008-4gtxsutsa3d83442',
-      region: '',
+      region: 'ap-shanghai',
       urls: [window.location.pathname],
       includeReply: false
     }).then(function (res) {
