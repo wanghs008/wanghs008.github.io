@@ -4,7 +4,13 @@
     src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
 }
 
+/* 版权链接去掉下划线 */
+
+.layout_post .post-copyright .post-copyright-info a {
+    text-decoration: none;
+}
+
 /* 博主昵称颜色 */
 .author-info__name {
-    color: #ff7242;
+    color: #42ff71;
 }
