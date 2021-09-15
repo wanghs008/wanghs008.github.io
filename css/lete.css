@@ -3,3 +3,8 @@
     font-family: 'sleek';
     src: url('https://cdn.jsdelivr.net/gh/lete114/CDN2/zaxiang/sleek.woff2');
 }
+
+/* 博主昵称颜色 */
+.author-info__name {
+    color: #ff7242;
+}
