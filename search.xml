@@ -8,7 +8,7 @@
       <link href="/2021/09/14/DopplerShift/"/>
       <url>/2021/09/14/DopplerShift/</url>
       
-        <content type="html"><![CDATA[<h1 id="多普勒"><a href="#多普勒" class="headerlink" title="多普勒"></a>多普勒</h1><h2 id="多普勒-1"><a href="#多普勒-1" class="headerlink" title="多普勒"></a>多普勒</h2><h3 id="多普勒多普勒"><a href="#多普勒多普勒" class="headerlink" title="多普勒多普勒"></a>多普勒多普勒</h3><p>disp([‘my test=’,num2str(x),’%’]);</p><p>disp([‘my test=’,num2str(x),’%’]);</p><p>st = sprintf(‘my test=%a.bd’,x);  % 有符号整型<br>st = sprintf(‘my test=%a.be’,x);  % 定点浮点型<br>st = sprintf(‘my test=%a.bf’,x);  % 指数浮点型<br>st = sprintf(‘my test=%a.bg’,x);  % 紧凑浮点型<br>disp(st);</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="多普勒"><a href="#多普勒" class="headerlink" title="多普勒"></a>多普勒</h1><h2 id="多普勒-1"><a href="#多普勒-1" class="headerlink" title="多普勒"></a>多普勒</h2><h3 id="多普勒多普勒"><a href="#多普勒多普勒" class="headerlink" title="多普勒多普勒"></a>多普勒多普勒</h3><p>disp([‘my test=’,num2str(x),’%’]);</p><p>disp([‘my test=’,num2str(x),’%’]);</p><p>st = sprintf(‘my test=%a.bd’,x);  % 有符号整型<br>st = sprintf(‘my test=%a.be’,x);  % 定点浮点型<br>st = sprintf(‘my test=%a.bf’,x);  % 指数浮点型<br>st = sprintf(‘my test=%a.bg’,x);  % 紧凑浮点型<br>disp(st);</p><p>1</p>]]></content>
       
       
       <categories>
