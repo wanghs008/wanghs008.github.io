@@ -20,3 +20,20 @@
     /* 以下代表透明度为0.5 */
     background: rgba(255,255,255,.1);
 }
+
+
+/* 图片背景 */
+/* #web_bg {
+    /* 背景图像的地址（url括号里）  */
+    /* background: url();
+    /* 背景图像不重复 */
+    /* background-repeat: no-repeat;
+    /* 背景图像大小 */
+    /* background-size: cover;
+  /* }
+
+/* 背景渐变 */
+#web_bg {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    }
+    
