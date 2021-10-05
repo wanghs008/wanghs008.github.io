@@ -1,4 +1,4 @@
-<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script>/* 分类卡片折叠 */
+/* 分类卡片折叠 */
 var card_category_list = document.getElementsByClassName(
     "card-category-list child"
 );
@@ -21,3 +21,13 @@ for (var i = 0; i < card_category_list.length; i++) {
     card_category_list[i].previousSibling.innerHTML +=
         '<i class="fa fa-chevron-up menus-expand  menus-closed" aria-hidden="true" style="margin-left:20px;" οnclick="toggle(this)"></i>';
 }
+
+function changeSearchText() {
+    $('input.local-search-box--input').attr('placeholder', '请输入关键字搜索内容');
+}
+
+// 依赖jquery的main环境
+btf.isJqueryLoad(function() {
+    // alert("hello, hs");
+    changeSearchText();
+})
